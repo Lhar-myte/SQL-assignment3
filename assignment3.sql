@@ -50,7 +50,6 @@ FROM employee_table
 WHERE salary < 70000
 ORDER BY job_title ASC;
 
--- 12
 SELECT country, urban_population_percent
 FROM global_health_statistics_part_1
 ORDER BY urban_population_percent DESC;
